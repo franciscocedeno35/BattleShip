@@ -1,0 +1,18 @@
+Design
+1.Two for loops create the board by scaling primitive cube types.
+2. The same loops is used to display the coordinates of each cube.
+3. The same logic applies to the ai board.
+4. This code is written in createboard.cs
+5. Camera movement is written in changecamera.cs.
+6. Camera focuses around the center of each board.
+7. Method to switch camera between player board and AI board also in this code.
+8. Canvas button links to switchcamera method
+9. Battleships have been scaled.
+10. Cubes meant to show where user will place shipped also scaled to match corresponding ship.
+11. Transparent red material ready to apply to cube for preselection upon user attempting to place ship out of bounds.
+
+Challenges
+1. Could not get cube creation iteration to work.
+2. Canvas with coordinates was not lining up correctly.
+3. Syntax would not work, many object not referenced errors.
+4. Use of prefab was not possible.
